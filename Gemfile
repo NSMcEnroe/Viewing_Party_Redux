@@ -44,6 +44,10 @@ gem "bootsnap", require: false
 
 gem "faraday"
 
+gem "rack-cors"
+
+gem "jsonapi-serializer"
+
 # Use Sass to process CSS
 # gem "sassc-rails"
 

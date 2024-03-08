@@ -33,7 +33,7 @@ RSpec.describe "User Index Page", type: :feature do
     expect(page).to have_link(user_3.username, href: "/users/#{user_3.id}")
   end
 
-  xit "displays a link to go back to the landing page" do
+  it "displays a link to go back to the landing page" do
     visit "/"
 
     expect(page).to have_link("All Users", href: "/")

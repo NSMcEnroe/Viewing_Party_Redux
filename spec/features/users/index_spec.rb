@@ -7,7 +7,7 @@ RSpec.describe "User Index Page", type: :feature do
     expect(page).to have_content("Viewing Party Redux")
   end
 
-  xit "displays a button to create a new user" do
+  it "displays a button to create a new user" do
     visit "/"
 
     expect(page).to have_button("Create New User")

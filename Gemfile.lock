@@ -323,7 +323,7 @@ DEPENDENCIES
   rails (~> 7.1.2)
   rspec-rails
   ruby_audit
-  shoulda-matchers
+  shoulda-matchers (~> 6.0)
   simplecov
   sprockets-rails
   stimulus-rails

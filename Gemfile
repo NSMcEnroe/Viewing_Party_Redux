@@ -81,7 +81,7 @@ group :test do
   gem "simplecov"
   gem "faker"
   gem "orderly"
-  gem "shoulda-matchers"
+  gem 'shoulda-matchers', '~> 6.0'
   gem "vcr"
   gem "webmock"
 end

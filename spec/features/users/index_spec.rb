@@ -13,7 +13,7 @@ RSpec.describe "User Index Page", type: :feature do
     expect(page).to have_button("Create New User")
   end
 
-  xit "sends the user to the correct page after clicking the new user button" do
+  it "sends the user to the correct page after clicking the new user button" do
     visit "/"
 
     click_on("Create New User")

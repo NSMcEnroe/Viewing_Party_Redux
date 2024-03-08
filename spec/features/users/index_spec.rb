@@ -21,16 +21,16 @@ RSpec.describe "User Index Page", type: :feature do
     expect(current_path).to eq("/register")
   end
 
-  xit "displays a list of existing users which links to the users dashboard" do
+  it "displays a list of existing users which links to the users dashboard" do
     user_1 = create(:user)
     user_2 = create(:user)
     user_3 = create(:user)
 
     visit "/"
 
-    expect(page).to have_link(user_1.name, href: "/users/#{user_1.id}")
-    expect(page).to have_link(user_2.name, href: "/users/#{user_2.id}")
-    expect(page).to have_link(user_3.name, href: "/users/#{user_3.id}")
+    expect(page).to have_link(user_1.username, href: "/users/#{user_1.id}")
+    expect(page).to have_link(user_2.username, href: "/users/#{user_2.id}")
+    expect(page).to have_link(user_3.username, href: "/users/#{user_3.id}")
   end
 
   xit "displays a link to go back to the landing page" do

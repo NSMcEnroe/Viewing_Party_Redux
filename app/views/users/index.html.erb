@@ -1,3 +1,11 @@
 <h1>Hello World!</h1>
 
 <br><%= button_to "Create New User", register_path, method: :get, data: { turbo: false } %>
+
+<ul>
+<% @users.each do |user| %>
+  <li>
+    <%= link_to user.username, user_path(user) %>
+  </li>
+<% end %>
+</ul>

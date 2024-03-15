@@ -1,8 +1,20 @@
 ## Table of Contents
 
-## Abstract
+[Project Overview](#project-overview) |
+[Technologies](#technologies) |
+[Database Schema](#database-schema) |
+[Endpoints](#endpoints) |
+[Updates](#updates) 
 
-## Preview
+## Project Overview
+
+Viewing Party Redux is my personal growth Ruby project to expand my understanding of new technologies and concepts withing software engineering.  Viewing Party Redux is designed as an application that allows users to explore movies and coordinate watch parties with other users. It not only leverages its own API for internal data handling but also integrates with external APIs to fetch and display content. This blend of functionalities showcases my ability to work with both self-created and third-party tools, ensuring a comprehensive development experience. 
+
+The primary goal of this project was to challenge myself to build a robust application from the ground up. By integrating both internal and external APIs, I aimed to create a multifaceted application that would serve as a solid foundation for future learning and development. 
+
+After the initial build, I plan to continuously expand the project's scope by incorporating new concepts and technologies. This iterative development process will not only refine the application but also serve as a living portfolio of my skills and learning journey. 
+
+All updates on the project can be accessed at the bottom of the Read Me document, including current struggles, current thoughts, and pivots.  If you have any suggestions on how to expand my project, don't hesitate to contact me!
 
 ## Technologies
 - Ruby 3.2.2

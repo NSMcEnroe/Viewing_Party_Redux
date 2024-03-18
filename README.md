@@ -4,7 +4,8 @@
 [Technologies](#technologies) |
 [Database Schema](#database-schema) |
 [Endpoints](#endpoints) |
-[Updates](#updates) 
+[Updates](#updates) |
+[Kanban](#kanban)
 
 ## Project Overview
 
@@ -39,3 +40,7 @@ All updates on the project can be accessed at the bottom of the Read Me document
 ## Endpoints
 
 ## Updates
+
+## [Kanban](https://github.com/users/NSMcEnroe/projects/3)
+
+
